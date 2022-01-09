@@ -1,8 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8881e28b-5aa3-4f05-8ab1-649267accafc" name="Changes" comment="пояснительная записка">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8881e28b-5aa3-4f05-8ab1-649267accafc" name="Changes" comment="поправки к игре">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/save-jurassic-park.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 мини-игра.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4 мини-игра.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/begin_лабиринт.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/corner_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/corner_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/corner_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/corner_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/electricity room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/electricity_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/electricity_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/electricity_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/electricity_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/end1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/end2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/end3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/end_лабиринт.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/incubator.JPEG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/jurassic park.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_off_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_off_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_off_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_off_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_on_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_on_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_on_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_on_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/next level.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/straight_gorizont.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/straight_vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/t_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/t_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/t_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/t_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ключ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/комната связи 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first game final.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$ проекта.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Пояснительная записка 1 и 3 мини игры.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ТЗ проекта.docx" beforeDir="false" afterPath="$PROJECT_DIR$/ТЗ проекта.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +75,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="22YxvpbrH2YkvY0fcZ9molgNXRA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,7 +86,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Пояснительная записка.docx" />
   </component>
   <component name="RunManager" selected="Python.game">
     <configuration name="Папа сапера" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -231,14 +283,7 @@
       <option name="project" value="LOCAL" />
       <updated>1641749250696</updated>
     </task>
-    <task id="LOCAL-00008" summary="пояснительная записка">
-      <created>1641753764664</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1641753764664</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,7 +297,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -272,7 +317,6 @@
     <MESSAGE value="добавление 2 мини-игры" />
     <MESSAGE value="2 и 4 мини-игры" />
     <MESSAGE value="поправки к игре" />
-    <MESSAGE value="пояснительная записка" />
-    <option name="LAST_COMMIT_MESSAGE" value="пояснительная записка" />
+    <option name="LAST_COMMIT_MESSAGE" value="поправки к игре" />
   </component>
 </project>
