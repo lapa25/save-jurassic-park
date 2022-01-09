@@ -15,7 +15,7 @@ def load_image(name, colorkey=None):  # функция для загрузки �
 
 
 class BoardFirstGame:
-    def __init__(self, width, height):   #икласс клетчатого поля для первой мини игры
+    def __init__(self, width, height):  # икласс клетчатого поля для первой мини игры
         self.width = width
         self.height = height
         self.board = [[0] * width for _ in range(height)]
@@ -41,7 +41,7 @@ class BoardFirstGame:
             left = self.left
         top = self.top
 
-    def get_cell(self, mouse_pos):   # получение координаты клетки
+    def get_cell(self, mouse_pos):  # получение координаты клетки
         for i in self.coords:
             if (0 <= mouse_pos[0] - i[0] <= self.cell_size) and (0 <= mouse_pos[1] - i[1] <= self.cell_size):
                 return i
@@ -135,8 +135,8 @@ class BoardFourthGame:  # класс клетчатого поля для чет
                    (mouse_pos[1] - self.top) // self.cell_size
 
 
-class Electro(pygame.sprite.Sprite):     # далее идут классы для спрайтов первой мини игры
-    image_down = load_image('electricity_down.png')   # класс для спрайта электрощитка
+class Electro(pygame.sprite.Sprite):  # далее идут классы для спрайтов первой мини игры
+    image_down = load_image('electricity_down.png')  # класс для спрайта электрощитка
     image_left = load_image('electricity_left.png')
     image_up = load_image('electricity_up.png')
     image_right = load_image('electricity_right.png')
@@ -187,7 +187,7 @@ class Electro(pygame.sprite.Sprite):     # далее идут классы дл
         return self.now
 
 
-class Straight(pygame.sprite.Sprite):    # класс для спрайта прямого провода
+class Straight(pygame.sprite.Sprite):  # класс для спрайта прямого провода
     g_image = load_image('straight_gorizont.png')
     v_image = load_image('straight_vertical.png')
 
@@ -295,7 +295,7 @@ class Corner(pygame.sprite.Sprite):  # класс для спрайта угло
         return self.now
 
 
-class T(pygame.sprite.Sprite):   # класс для спрайта разветвляющегося провода
+class T(pygame.sprite.Sprite):  # класс для спрайта разветвляющегося провода
     image_down = load_image('t_down.png')
     image_left = load_image('t_left.png')
     image_up = load_image('t_up.png')
@@ -344,7 +344,7 @@ class T(pygame.sprite.Sprite):   # класс для спрайта развет
         return self.now
 
 
-class Lamp(pygame.sprite.Sprite):   # класс для спрайта лампочки
+class Lamp(pygame.sprite.Sprite):  # класс для спрайта лампочки
     image_left_off = load_image('lamp_off_left.png')
     image_right_off = load_image('lamp_off_right.png')
     image_left_on = load_image('lamp_on_left.png')
@@ -387,7 +387,7 @@ class Lamp(pygame.sprite.Sprite):   # класс для спрайта ламп�
         self.now = rotate
         self.on = False
 
-    def update(self, *args):        # здесь определена логика для загорания лампочек на каждом уровне
+    def update(self, *args):  # здесь определена логика для загорания лампочек на каждом уровне
         if level == 1:
             if self.now == 'right':
                 if e1.is_now() == 'left' and s1.is_now() == 'gorizont' \
@@ -440,8 +440,10 @@ class Lamp(pygame.sprite.Sprite):   # класс для спрайта ламп�
                     self.image = self.image_right_off
                     self.on = False
             if self.now == 'left':
-                if e_1.is_now() == 'left' and (t_2.is_now() == 'down' or t_2.is_now() == 'up') and t_1.is_now() == 'up' and \
-                        (t_3.is_now() == 'down' or t_3.is_now() == 'right') and s_2.is_now() == 'gorizont' and s_3.is_now() == 'gorizont':
+                if e_1.is_now() == 'left' and (
+                        t_2.is_now() == 'down' or t_2.is_now() == 'up') and t_1.is_now() == 'up' and \
+                        (
+                                t_3.is_now() == 'down' or t_3.is_now() == 'right') and s_2.is_now() == 'gorizont' and s_3.is_now() == 'gorizont':
                     self.image = self.image_left_on
                     self.on = True
                 else:
@@ -463,7 +465,7 @@ class Lamp(pygame.sprite.Sprite):   # класс для спрайта ламп�
                     self.image = self.image_right_off
                     self.on = False
 
-    def is_on(self):   # метод возвращает: горит лампочка или нет
+    def is_on(self):  # метод возвращает: горит лампочка или нет
         return self.on
 
 
@@ -529,7 +531,7 @@ class Game2(BoardSecondGame):  # класс 2 мини игры, унаслед�
 
     def make_maze(self):
         list_walls = []
-        for i in range(15):
+        for i in range(10):
             i, j = randint(0, self.height - 1), randint(0, self.width - 1)
             while [i, j] in list_walls or (i == 0 and j == 0) or (i == self.height - 1 and j == self.width - 1):
                 i, j = randint(0, self.height - 1), randint(0, self.width - 1)
@@ -539,7 +541,7 @@ class Game2(BoardSecondGame):  # класс 2 мини игры, унаслед�
             for elem in list_walls:
                 self.board[elem[1]][elem[0]] = 0
             list_walls = []
-            for i in range(15):
+            for i in range(10):
                 i, j = randint(0, self.height - 1), randint(0, self.width - 1)
                 while [i, j] in list_walls or (i == 0 and j == 0) or (i == self.height - 1 and j == self.width - 1):
                     i, j = randint(0, self.height - 1), randint(0, self.width - 1)
@@ -642,8 +644,8 @@ class Game2(BoardSecondGame):  # класс 2 мини игры, унаслед�
                 if self.board_1[a][b] == 0:
                     was = True
                     break
-        if not was:     # как я поняла, эта часть кода отвечает за победу? по идее, если да, то именно тут будет
-            global startgame2    # изменяться значение переменной, которая включает эту игру
+        if not was:  # как я поняла, эта часть кода отвечает за победу? по идее, если да, то именно тут будет
+            global startgame2  # изменяться значение переменной, которая включает эту игру
             startgame2 = 'end'
             font = pygame.font.Font(None, 50)
             text = font.render('Победа!', True, pygame.Color('yellow'))
@@ -651,7 +653,7 @@ class Game2(BoardSecondGame):  # класс 2 мини игры, унаслед�
         all_sprites2.draw(screen)
 
 
-class Egg(pygame.sprite.Sprite):   # класс спрайта яйца для 3 мини игры
+class Egg(pygame.sprite.Sprite):  # класс спрайта яйца для 3 мини игры
     image = load_image('egg.png')
 
     def __init__(self):
@@ -690,7 +692,7 @@ def draw_final(screen, time):  # для 1 миниигры, отрисовка �
     pygame.draw.rect(screen, (0, 255, 0), (text_x - 10, text_y - 10, text_w + 20, text_h + 20), 1)
 
 
-def draw(screen, mistakes):   # для 3 миниигры, отрисовка полоски вверху
+def draw(screen, mistakes):  # для 3 миниигры, отрисовка полоски вверху
     life = 3
     pygame.draw.rect(screen, (0, 0, 0), (0, 0, width, 50))
     font = pygame.font.Font(None, 50)
@@ -700,7 +702,7 @@ def draw(screen, mistakes):   # для 3 миниигры, отрисовка п
     screen.blit(text, (text_x, text_y))
 
 
-def draw_game_over(screen):  #для 3 миниигры, отрисовка проигрыша
+def draw_game_over(screen):  # для 3 миниигры, отрисовка проигрыша
     screen.fill((0, 0, 0))
     font = pygame.font.Font(None, 50)
     text = font.render("Game Over", True, (100, 255, 100))
@@ -712,7 +714,7 @@ def draw_game_over(screen):  #для 3 миниигры, отрисовка пр
     pygame.draw.rect(screen, (0, 255, 0), (text_x - 10, text_y - 10, text_w + 20, text_h + 20), 1)
 
 
-def draw_win(screen):   # для 3 миниигры, отрисовка победы
+def draw_win(screen):  # для 3 миниигры, отрисовка победы
     screen.fill((0, 0, 0))
     font = pygame.font.Font(None, 50)
     text = font.render("Победа! Вы справились.", True, (100, 255, 100))
@@ -728,13 +730,12 @@ def draw_win(screen):   # для 3 миниигры, отрисовка побе
     pygame.draw.rect(screen, (0, 255, 0), (text_x - 10, text_y - 10, text_w + 20, text_h + 20), 1)
 
 
-startgame1 = False   # переменные для стартов всех игр
+startgame1 = False  # переменные для стартов всех игр
 startgame2 = False
 startgame3 = False
 startgame4 = False
 
-
-if __name__ == '__main__':   # инициализация игры
+if __name__ == '__main__':  # инициализация игры
     pygame.init()
     size = width, height = 980, 590
     screen = pygame.display.set_mode(size)
@@ -742,7 +743,7 @@ if __name__ == '__main__':   # инициализация игры
     all_sprites = pygame.sprite.Group()
 
     jurassic_park = pygame.sprite.Sprite(all_sprites)
-    jurassic_park.image = load_image('jurassic park.jpg')   # стартовая картинка
+    jurassic_park.image = load_image('jurassic park.jpg')  # стартовая картинка
     jurassic_park.rect = jurassic_park.image.get_rect()
     jurassic_park.rect.x = 0
     jurassic_park.rect.y = 0
@@ -764,7 +765,6 @@ if __name__ == '__main__':   # инициализация игры
 
     pygame.quit()
 
-
 if startgame1:  # первая мини игра
     pygame.init()
     size = width, height = 850, 480
@@ -783,7 +783,7 @@ if startgame1:  # первая мини игра
     start.rect.y = -150
 
     nextlvl = pygame.sprite.Sprite(nxtlvl_group)
-    nextlvl.image = load_image('next level.png') # спрайт перехода на след. уровень
+    nextlvl.image = load_image('next level.png')  # спрайт перехода на след. уровень
     nextlvl.rect = nextlvl.image.get_rect()
     nextlvl.rect.x = (width - nextlvl.rect.width) // 2
     nextlvl.rect.y = (height - nextlvl.rect.height) // 2
@@ -825,7 +825,6 @@ if startgame1:  # первая мини игра
                             screen.fill((202, 196, 176))
                 elif level == 2 and game_start:
                     second_level.update(event)
-
                     if l3.is_on() and l4.is_on() and l5.is_on():
                         if (event.pos[0] >= 266 and event.pos[0] < 584) and \
                                 (event.pos[1] >= 212 and event.pos[1] < 306):
@@ -901,9 +900,9 @@ if startgame1:  # первая мини игра
 
     pygame.quit()
 
-if startgame2: # вторая мини игра
+if startgame2:  # вторая мини игра
     def do():
-        global startgame2
+        global startgame2, startgame3
         pygame.init()  # инициализация экрана
         size = width, height = 500, 500
         screen = pygame.display.set_mode(size)
@@ -927,6 +926,7 @@ if startgame2: # вторая мини игра
                     if event.key == pygame.K_SPACE and begin:
                         begin = False
                         make_bombs_keys = True
+                    elif event.key == pygame.K_SPACE:
                         if startgame2 == 'end':
                             running = False
                             startgame3 = True
@@ -972,8 +972,7 @@ if startgame2: # вторая мини игра
             all_sprites1.draw(screen1)
             pygame.display.flip()
 
-
-if startgame3: # третья мини игра
+if startgame3:  # третья мини игра
     pygame.init()
     size = width, height = 800, 600
     screen = pygame.display.set_mode(size)
@@ -1009,7 +1008,7 @@ if startgame3: # третья мини игра
     heart.rect.y = 0
 
     start = pygame.sprite.Sprite(start_group)
-    start.image = load_image('incubator.jpeg') # начальный экран
+    start.image = load_image('incubator.jpeg')  # начальный экран
     start.rect = start.image.get_rect()
     start.rect.x = 0
     start.rect.y = -120
@@ -1083,8 +1082,7 @@ if startgame3: # третья мини игра
         pygame.display.flip()
     pygame.quit()
 
-
-if startgame4:   # 4 мини игра
+if startgame4:  # 4 мини игра
     def do():  # функция, создающая уровень
         pygame.init()  # инициализация экрана
         size = width, height = 500, 500
@@ -1137,8 +1135,8 @@ if startgame4:   # 4 мини игра
                 sprite.rect.y = 0
             if begin:
                 all_sprites.draw(screen)
-            else:  # рисоввание поля
-                board = Game4(count, count, level)
+            else:  # рисование поля
+                board = Game4(5, 5, level)
                 board.set_view(left, top, 50)
                 board.render(screen)
                 if take_signals:
@@ -1166,11 +1164,10 @@ if startgame4:   # 4 мини игра
                 count1 = 0
                 level += 1
                 index = 0
-                left, top = left - 25, top - 25
                 list_light = []
                 take_signals = True
                 remember = False
-                board = Game4(count, count, level)
+                board = Game4(5, 5, level)
                 board.set_view(left, top, 50)
                 board.render(screen)
                 if take_signals:
