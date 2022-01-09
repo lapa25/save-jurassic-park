@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8881e28b-5aa3-4f05-8ab1-649267accafc" name="Changes" comment="поправки к игре">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/save-jurassic-park.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 мини-игра.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4 мини-игра.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/begin_лабиринт.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/corner_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/corner_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/corner_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/corner_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/electricity room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/electricity_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/electricity_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/electricity_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/electricity_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/end1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/end2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/end3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/end_лабиринт.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/incubator.JPEG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/jurassic park.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_off_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_off_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_off_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_off_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_on_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_on_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_on_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lamp_on_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/next level.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/straight_gorizont.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/straight_vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/t_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/t_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/t_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/t_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ключ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/комната связи 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first game final.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$ проекта.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Пояснительная записка 1 и 3 мини игры.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ТЗ проекта.docx" beforeDir="false" afterPath="$PROJECT_DIR$/ТЗ проекта.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="22YxvpbrH2YkvY0fcZ9molgNXRA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Пояснительная записка.docx" />
+  </component>
+  <component name="RunManager" selected="Python.game">
+    <configuration name="Папа сапера" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="save-jurassic-park" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pythonProject1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pythonProject1/Папа сапера.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="save-jurassic-park" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2 мини-игра" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="save-jurassic-park" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2 мини-игра.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4 мини-игра (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="save-jurassic-park" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4 мини-игра.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4 мини-игра" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="save-jurassic-park" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\lapan\PycharmProjects\save-jurassic-park\4 мини-игра.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="save-jurassic-park" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\lapan\PycharmProjects\save-jurassic-park" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Папа сапера" />
+        <item itemvalue="Python.game" />
+        <item itemvalue="Python.4 мини-игра (1)" />
+        <item itemvalue="Python.2 мини-игра" />
+        <item itemvalue="Python.1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8881e28b-5aa3-4f05-8ab1-649267accafc" name="Changes" comment="" />
+      <created>1640028554673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640028554673</updated>
+    </task>
+    <task id="LOCAL-00001" summary="описание проекта">
+      <created>1640028682938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640028682938</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ТЗ проекта">
+      <created>1640333279672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640333279672</updated>
+    </task>
+    <task id="LOCAL-00003" summary="добавление 4 мини-игры">
+      <created>1640690317828</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640690317828</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавление 4 мини-игры">
+      <created>1640690356415</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640690356415</updated>
+    </task>
+    <task id="LOCAL-00005" summary="добавление 2 мини-игры">
+      <created>1640974289337</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640974289337</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2 и 4 мини-игры">
+      <created>1641159113579</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641159113579</updated>
+    </task>
+    <task id="LOCAL-00007" summary="поправки к игре">
+      <created>1641749250696</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641749250696</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="описание проекта" />
+    <MESSAGE value="ТЗ проекта" />
+    <MESSAGE value="добавление 4 мини-игры" />
+    <MESSAGE value="добавление 2 мини-игры" />
+    <MESSAGE value="2 и 4 мини-игры" />
+    <MESSAGE value="поправки к игре" />
+    <option name="LAST_COMMIT_MESSAGE" value="поправки к игре" />
+  </component>
+</project>
