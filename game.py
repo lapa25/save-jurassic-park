@@ -734,6 +734,7 @@ startgame1 = False  # переменные для стартов всех игр
 startgame2 = False
 startgame3 = False
 startgame4 = False
+end = False
 
 if __name__ == '__main__':  # инициализация игры
     pygame.init()
@@ -1095,7 +1096,7 @@ if startgame4:  # 4 мини игра
         sprite.rect.y = - 300  # настройка параметров
         sprite.rect.x = 0
         left, top = 125, 125
-        count = 5
+        count = 4
         count1 = 0
         index = 0
         level = 1
@@ -1246,3 +1247,26 @@ if startgame4:  # 4 мини игра
                     running1 = False
             all_sprites1.draw(screen1)
             pygame.display.flip()
+        end = True
+        startgame4 = False
+
+if end:
+    pygame.init()
+    size1 = width1, height1 = 980, 590
+    screen1 = pygame.display.set_mode(size1)
+    pygame.display.set_caption('Финал')
+    all_sprites1 = pygame.sprite.Group()
+    sprite1 = pygame.sprite.Sprite()
+    sprite1.image = load_image('jurassic park end.jpg')
+    sprite1.rect = sprite1.image.get_rect()
+    sprite1.rect.y = 0
+    sprite1.rect.x = 0
+    all_sprites1.add(sprite1)
+    clock1 = pygame.time.Clock()
+    running1 = True
+    while running1:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running1 = False
+        all_sprites1.draw(screen1)
+        pygame.display.flip()
