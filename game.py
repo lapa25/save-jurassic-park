@@ -744,10 +744,11 @@ if __name__ == '__main__':  # инициализация игры
     all_sprites = pygame.sprite.Group()
 
     jurassic_park = pygame.sprite.Sprite(all_sprites)
-    jurassic_park.image = load_image('jurassic park.jpg')  # стартовая картинка
+    jurassic_park.image = load_image('1.JPEG')  # стартовая картинка
     jurassic_park.rect = jurassic_park.image.get_rect()
     jurassic_park.rect.x = 0
     jurassic_park.rect.y = 0
+    picture = 1
 
     all_game_running = True
 
@@ -756,11 +757,31 @@ if __name__ == '__main__':  # инициализация игры
             if event.type == pygame.QUIT:
                 running = False
             if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_SPACE:
-                    starting = True
-                    all_sprites.remove(jurassic_park)
-                    all_game_running = False
-                    startgame1 = True
+                if event.key == pygame.K_SPACE: # чтоб по пробелу сменялись картинки-предистории к игре
+                    if picture == 1:
+                        jurassic_park.image = load_image('2.JPEG')
+                        jurassic_park.rect = jurassic_park.image.get_rect()
+                        jurassic_park.rect.x = 0
+                        jurassic_park.rect.y = 0
+                        picture = 2
+                    elif picture == 2:
+                        jurassic_park.image = load_image('3.JPEG')
+                        jurassic_park.rect = jurassic_park.image.get_rect()
+                        jurassic_park.rect.x = 0
+                        jurassic_park.rect.y = 0
+                        picture = 3
+                    elif picture == 3:
+                        jurassic_park.image = load_image('4.JPEG')
+                        jurassic_park.rect = jurassic_park.image.get_rect()
+                        jurassic_park.rect.x = 0
+                        jurassic_park.rect.y = 0
+                        picture = 4
+                    elif picture == 4:
+                        starting = True
+                        all_sprites.remove(jurassic_park)
+                        all_game_running = False
+                        startgame1 = True
+
         all_sprites.draw(screen)
         pygame.display.flip()
 
