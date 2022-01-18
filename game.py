@@ -940,6 +940,7 @@ if startgame2:  # вторая мини игра
         begin = True
         make_bombs_keys = False
         numbers = False
+        board = Game2(10, 10)
         while running:  # игровой цикл
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
